@@ -22,3 +22,9 @@ Route::get('/halamandua', function () {
 Route::get('/halamantiga', function () {
     return view('halamantiga');
 });
+
+Route::get('/index', 'contoh@index');
+Route::get('/tambah', 'contoh@tambah');
+Route::get('/view','contoh@view');
+Route::get('/halaman2','contoh@halaman2');
+Route::get('/halaman3','contoh@halaman3');
