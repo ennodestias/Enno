@@ -40,10 +40,13 @@
                 <a href="/">Home</a>
             </li>
             <li>
-                <a href="/halamandua">- Halaman Dua</a>
+                <a href="/halamandua">Halaman Dua</a>
             </li>
             <li>
-                <a href="/halamantiga">- Halaman Tiga</a>
+                <a href="/halamantiga">Halaman Tiga</a>
+            </li>
+            <li>
+                <a href="/mahasiswa">Mahasiswa</a>
             </li>
         </ul>
     </aside>
