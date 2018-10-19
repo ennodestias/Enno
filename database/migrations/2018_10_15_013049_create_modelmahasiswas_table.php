@@ -30,6 +30,6 @@ class CreateModelmahasiswasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('modelmahasiswas');
+        Schema::dropIfExists('model_mahasiswas');
     }
 }
