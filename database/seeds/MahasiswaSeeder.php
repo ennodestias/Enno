@@ -21,7 +21,9 @@ class MahasiswaSeeder extends Seeder
     		]);
     	}
         // $this->call(UsersTableSeeder::class);
+    
     }
+
 
 
 }
