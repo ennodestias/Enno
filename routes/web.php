@@ -26,14 +26,20 @@ Route::get('/halamantiga', function () {
 Route::get('/mahasiswa', function () {
     return view('mahasiswa');
 });
+
+Route::get('/view', function () {
+    return view('mahasiswa_create');
+});
+
 Route::get('/user', function () {
     return view('user');
 });
 
 Route::get('/index', 'contoh@index');
 Route::get('/tambah', 'contoh@tambah');
-Route::get('/view','contoh@view');
+//Route::get('/view','contoh@view');
 Route::get('/halaman2','contoh@halaman2');
 Route::get('/halaman3','contoh@halaman3');
 Route::resource('mahasiswa','Mahasiswa');
+// Route::resource('view','view');
 Route::resource('user','user');

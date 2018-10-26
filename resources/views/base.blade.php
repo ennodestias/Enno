@@ -47,6 +47,9 @@
             </li>
             <li>
                 <a href="/mahasiswa">Mahasiswa</a>
+                            <li>
+                <a href="/view">View</a>
+            </li>
             </li>
             <li>
                 <a href="/user">User</a>
