@@ -47,12 +47,15 @@
             </li>
             <li>
                 <a href="/mahasiswa">Mahasiswa</a>
-                            <li>
-                <a href="/view">View</a>
             </li>
+            <li>
+                <a href="/view">Tambah Mahasiswa</a>
             </li>
             <li>
                 <a href="/user">User</a>
+            </li>
+            <li>
+                <a href="{{ route('user.create') }}">Tambah User</a>
             </li>
         </ul>
     </aside>

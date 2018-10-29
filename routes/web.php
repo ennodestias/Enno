@@ -35,6 +35,7 @@ Route::get('/user', function () {
     return view('user');
 });
 
+
 Route::get('/index', 'contoh@index');
 Route::get('/tambah', 'contoh@tambah');
 //Route::get('/view','contoh@view');
